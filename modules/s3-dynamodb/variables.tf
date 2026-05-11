@@ -1,7 +1,7 @@
 variable "bucket" {
   description = "The name of the S3 bucket"
   type        = string
-  default     = "betech-terraform-state-bucket-2025"
+  default     = "betech-terraform-state-bucket-2027"
 }
 
 variable "table" {
