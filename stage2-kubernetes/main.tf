@@ -110,7 +110,7 @@ locals {
 
 module "aws_load_balancer_controller_irsa_role" {
   source = "terraform-aws-modules/iam/aws//modules/iam-role-for-service-accounts-eks"
-
+  version = "5.39.0"
   role_name                              = "${var.env_name}-alb-controller"
   attach_load_balancer_controller_policy = true
 
